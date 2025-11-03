@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #494949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgb(58, 58, 58);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 280px;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background: #000000;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ffffff81;
+}
+
+#hasil {
+    margin-top: 10px;
+    font-weight: bold;
+}
